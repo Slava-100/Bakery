@@ -4,9 +4,6 @@
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
-.A{
-	background-color: #FFE4B5;
-}
 .hr{
 	border: 1px dotted silver;
 	margin-bottom: 4px;
@@ -63,7 +60,7 @@ h2{
 }
 header{
 	margin-top: 20px;
-}
+} 
 .B{
 	background: #FFE4B5;
 	font-size: 14px;
@@ -77,5 +74,20 @@ header{
 }
 .B:hover{
 	background: #454547;
-	color: #ffffff;
+	color: #ffffff; 
+}
+article:after{
+	content: \2026;
+}
+#content:before{
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 100%;
+ background: repeating-linear-gradient(150deg, black, black 1px, #FFE4B5 10px, #FFE4B5 1px);
+}
+#background-color{
+	background-color: #FFE4B5;
+	max-width: 1200px;
+	margin: auto
 }
