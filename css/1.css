@@ -1,0 +1,81 @@
+.image-center{
+	display: block;
+	margin: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.A{
+	background-color: #FFE4B5;
+}
+.hr{
+	border: 1px dotted silver;
+	margin-bottom: 4px;
+}
+h1{
+	font-family: "Courier New", monospace; 
+	font-size: 30px;
+	text-shadow: 3px 2px 3px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	font-weight: normal;
+}
+div{                    
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+}
+h2{
+	display:table-cell;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	top: 0; 
+	opacity: 0.6;
+	font-family: segoe script;	
+	background-color: white;
+	margin-left: 550px;
+	margin-top: 175px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.qwerty{
+	font-size: 10px;
+	font-family:  gabriola;
+}
+.hr2{
+	border: 1px dotted silver;
+	margin-bottom: 10px;
+}
+.dws-menu{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul, .dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	padding: 15px 100px 15px 40px;
+}
+header{
+	margin-top: 20px;
+}
+.B{
+	background: #FFE4B5;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 5px 10px #D2691E;
+	transition: ali 0.3s ease;
+}
+.dws-menu > ul li{
+ position: relative;	
+}
+.B:hover{
+	background: #454547;
+	color: #ffffff;
+}
