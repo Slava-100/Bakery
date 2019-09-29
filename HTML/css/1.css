@@ -1,0 +1,144 @@
+
+.lin{
+	border:1px dotted silver;
+	margin-top: 4px;
+}
+.image-center{
+	display: block;
+	margin: auto;
+	border-top: 3px solid black;
+	border-bottom: 2px solid black;
+	width: 1000px;
+}
+.image-center2{
+	display: block;
+	margin: auto;
+	border-top: 3px solid black;
+	border-bottom: 2px solid black;
+	width: 1000px;
+}
+.otstup{
+	margin-top: 300px;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+}
+.hr{
+	border: 1px dotted silver;
+	margin-bottom: 4px;	
+}
+h1{
+	font-family: "Courier New", monospace; 
+	font-size: 30px;
+	text-shadow: 3px 2px 3px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	font-weight: normal;
+	margin-top: 1px;
+}
+.div1{                    
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+} 
+.div2{
+	position: absolute;
+	color: black;
+	font-size: 10px;
+	top: 170px; 
+	right:320px;
+	opacity: 0.6;
+	font-family: segoe script;	
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 220px;
+	height: 140px; 
+}
+.div3{
+	position: absolute;
+	color: black;
+	font-size: 30px;
+	top: 20px; 
+	right:60px;
+	font-family: gabriola;	
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 350px;
+	height: 100px;
+	color: white;
+}
+.div4{
+ border-left: 1px dotted silver;
+ border-right: 1px dotted silver; 
+}
+.qwerty1{
+	font-size: 12px;
+	font-family:  gabriola;
+}
+.qwerty2{
+	font-size: 16px;
+	font-family:  gabriola;
+	opacity: 0.7;
+	font-weight: 100;
+	margin-bottom: 1em;
+}
+.slka{
+	color: white;
+	font-size: 16px;
+	opacity: 0.9;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.hr2{
+	border: 1px dotted silver;
+	margin-bottom: 10px;
+}
+.dws-menu{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul, .dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	padding: 15px 100px 15px 40px;
+}
+header{
+	margin-top: 20px;
+} 
+.B{
+	background: #FFE4B5;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 5px 10px #D2691E;
+	transition: ali 0.3s ease;
+}
+.dws-menu > ul li{
+ position: relative;	
+}
+.B:hover{
+	background: #454547;
+	color: #ffffff; 
+}
+article:after{
+	content: \2026;
+}
+#content:before{
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 100%;
+ background: repeating-linear-gradient(150deg, black, black 1px, #FFE4B5 10px, #FFE4B5 1px);
+}
+#background-color{
+	background-color: #FFE4B5;
+	max-width: 1000px;
+	margin: auto
+}
