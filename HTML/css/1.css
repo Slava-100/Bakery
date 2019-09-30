@@ -52,7 +52,7 @@ h1{
 	background-color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	width: 200px;
+	width: 220px;
 	height: 140px; 
 }
 .div3{
@@ -70,7 +70,9 @@ h1{
 }
 .div4{
  border-left: 1px dotted silver;
- border-right: 1px dotted silver; 
+ border-right: 1px dotted silver;
+ padding-left: 11px; 
+ padding-right: 11px;
 }
 .qwerty1{
 	font-size: 12px;
