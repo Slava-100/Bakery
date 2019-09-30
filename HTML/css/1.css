@@ -40,19 +40,19 @@ h1{
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-} 
+}
 .div2{
 	position: absolute;
 	color: black;
 	font-size: 10px;
 	top: 170px; 
-	right:320px;
+	right:340px;
 	opacity: 0.6;
 	font-family: segoe script;	
 	background-color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	width: 220px;
+	width: 200px;
 	height: 140px; 
 }
 .div3{
@@ -119,6 +119,7 @@ header{
 	text-transform: uppercase;
 	box-shadow: 1px 5px 10px #D2691E;
 	transition: ali 0.3s ease;
+	border-radius: 8px;
 }
 .dws-menu > ul li{
  position: relative;	
