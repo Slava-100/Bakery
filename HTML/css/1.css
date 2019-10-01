@@ -1,4 +1,67 @@
 
+.konec{
+	text-align: center;
+	font-size: 8px;
+	font-weight: 300;
+}
+.line{
+	border: 1px dotted silver;
+	margin-top:20px;
+}
+.bigline{
+	margin-top: 0px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.R{
+	padding-left: 0;
+	vertical-align: middle;
+    bottom: 180px;
+    left: 265px;	
+	position:relative;
+	width: 140px;
+	height: 100px;
+}
+.Z{
+	padding-left:100px;
+	vertical-align: middle;
+    bottom: 78px; 
+	position:relative;
+	width: 200px;
+	left: 20px;
+	height: 100px;
+}
+.E{
+	vertical-align: middle;
+	float: top;
+	position:relative;
+	left: 190px;	
+	width: 100px;
+	height: 40px;
+	bottom: 50px;
+	display: table-cell;
+}
+.Q{
+	vertical-align: middle;
+	text-align:center;
+	float: top; 
+	position:relative;
+	right: 250px;
+}
+.qwerty3{
+	margin-top: 0em;
+	margin-bottom: 0em; 
+	font-size: 20px;
+	font-family: gabriola;
+    font-weight: 200;
+    color: grey;
+   	
+}
+.W{
+	font-size: 20px;
+	font-family: segoe script;	
+	text-align: center;
+}
 .lin{
 	border:1px dotted silver;
 	margin-top: 4px;
@@ -71,7 +134,7 @@ h1{
 .div4{
  border-left: 1px dotted silver;
  border-right: 1px dotted silver;
- padding-left: 11px; 
+ padding-left: px; 
  padding-right: 11px;
 }
 .qwerty1{
@@ -138,10 +201,12 @@ article:after{
   display: inline-block;
   height: 10px;
   width: 100%;
- background: repeating-linear-gradient(150deg, black, black 1px, #FFE4B5 10px, #FFE4B5 1px);
+ background: repeating-linear-gradient(150deg, black 1px, black 1px, #FFE4B5 10px, #FFE4B5 1px);
 }
 #background-color{
 	background-color: #FFE4B5;
 	max-width: 1000px;
-	margin: auto
-}
+	max-height: 5000px;
+	margin: auto;
+    position: relative;
+}	
