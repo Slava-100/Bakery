@@ -1,4 +1,77 @@
+.sdvig{
+	position: relative;
+	width: 100%;
+	bottom: 100px;
 
+}
+.konec{
+	text-align: center;
+	font-size: 8px;
+	font-weight: 300;
+	margin-top: 0px;
+}
+.line{
+	border: 1px dotted silver;
+	margin-top:20px;
+}
+.bigline{
+	margin-top: 0px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.R{
+	padding-left: 0;
+	vertical-align: middle;
+    bottom: 180px;
+    left: 265px;	
+	position:relative;
+	width: 140px;
+	height: 100px;
+}
+.Z{
+	padding-left:100px;
+	vertical-align: middle;
+    bottom: 78px; 
+	position:relative;
+	width: 200px;
+	left: 20px;
+	height: 100px;
+}
+.E{
+	vertical-align: middle;
+	float: top;
+	position:relative;
+	left: 190px;	
+	width: 100px;
+	height: 40px;
+	bottom: 50px;
+	display: table-cell;
+}
+.Q{
+	vertical-align: middle;
+	text-align:center;
+	float: top; 
+	position:relative;
+	right: 250px;
+}
+.qwerty3{
+	margin-top: 0em;
+	margin-bottom: 0em; 
+	font-size: 20px;
+	font-family: gabriola;
+    font-weight: 200;
+    color: grey;
+   	
+}
+.W{
+	font-size: 20px;
+	font-family: segoe script;	
+	text-align: center;
+}
+.lin{
+	border:1px dotted silver;
+	margin-top: 4px;
+}
 .image-center{
 	display: block;
 	margin: auto;
@@ -21,7 +94,7 @@
 }
 .hr{
 	border: 1px dotted silver;
-	margin-bottom: 4px;
+	margin-bottom: 4px;	
 }
 h1{
 	font-family: "Courier New", monospace; 
@@ -36,20 +109,20 @@ h1{
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-} 
+}
 .div2{
 	position: absolute;
 	color: black;
 	font-size: 10px;
 	top: 170px; 
-	right:320px;
+	right:340px;
 	opacity: 0.6;
 	font-family: segoe script;	
 	background-color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	width: 250px;
-	height: 140px;
+	width: 220px;
+	height: 140px; 
 }
 .div3{
 	position: absolute;
@@ -63,6 +136,12 @@ h1{
 	width: 350px;
 	height: 100px;
 	color: white;
+}
+.div4{
+ border-left: 1px dotted silver;
+ border-right: 1px dotted silver;
+ padding-left: px; 
+ padding-right: px;
 }
 .qwerty1{
 	font-size: 12px;
@@ -90,7 +169,7 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-.dws-menu ul, .dws-menu ol{
+.dws-menu ul{
 	list-style: none;
 }
 .dws-menu > ul{
@@ -99,7 +178,10 @@ h1{
 }
 .dws-menu > ul li a{
 	display: block;
-	padding: 15px 100px 15px 40px;
+	padding-top: 10px;
+	padding-right:40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
 }
 header{
 	margin-top: 20px;
@@ -111,6 +193,8 @@ header{
 	text-transform: uppercase;
 	box-shadow: 1px 5px 10px #D2691E;
 	transition: ali 0.3s ease;
+	border-radius: 12px;
+	padding: 1px;
 }
 .dws-menu > ul li{
  position: relative;	
@@ -127,10 +211,12 @@ article:after{
   display: inline-block;
   height: 10px;
   width: 100%;
- background: repeating-linear-gradient(150deg, black, black 1px, #FFE4B5 10px, #FFE4B5 1px);
+ background: repeating-linear-gradient(150deg, black 1px, black 1px, #FFE4B5 10px, #FFE4B5 1px);
 }
 #background-color{
 	background-color: #FFE4B5;
 	max-width: 1000px;
-	margin: auto
-}
+	max-height: 1820px;
+	margin: auto;
+    position: relative;
+}	

@@ -1,4 +1,8 @@
 
+.lin{
+	border:1px dotted silver;
+	margin-top: 4px;
+}
 .image-center{
 	display: block;
 	margin: auto;
@@ -21,7 +25,7 @@
 }
 .hr{
 	border: 1px dotted silver;
-	margin-bottom: 4px;
+	margin-bottom: 4px;	
 }
 h1{
 	font-family: "Courier New", monospace; 
@@ -48,8 +52,8 @@ h1{
 	background-color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	width: 250px;
-	height: 140px;
+	width: 220px;
+	height: 140px; 
 }
 .div3{
 	position: absolute;
@@ -63,6 +67,10 @@ h1{
 	width: 350px;
 	height: 100px;
 	color: white;
+}
+.div4{
+ border-left: 1px dotted silver;
+ border-right: 1px dotted silver; 
 }
 .qwerty1{
 	font-size: 12px;
