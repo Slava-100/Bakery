@@ -1,7 +1,7 @@
 .sdvig{
 	position: relative;
 	width: 100%;
-	bottom: 100px;
+	bottom: 410px;
 
 }
 .konec{
@@ -87,7 +87,7 @@
 	width: 1000px;
 }
 .otstup{
-	margin-top: 300px;
+	margin-top: 100px;
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
@@ -136,6 +136,7 @@ h1{
 	width: 350px;
 	height: 100px;
 	color: white;
+
 }
 .div4{
  border-left: 1px dotted silver;
@@ -192,9 +193,19 @@ header{
 	text-decoration: none;
 	text-transform: uppercase;
 	box-shadow: 1px 5px 10px #D2691E;
-	transition: ali 0.3s ease;
+	transition: all 0.3s ease;
 	border-radius: 12px;
 	padding: 1px;
+}
+.B2{
+    background: #FFE4B5;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	padding: 1px;	
+	border: 2px solid black;
+	display:inline-block;
 }
 .dws-menu > ul li{
  position: relative;	
@@ -216,7 +227,107 @@ article:after{
 #background-color{
 	background-color: #FFE4B5;
 	max-width: 1000px;
-	max-height: 1820px;
+	max-height: 1750px;
 	margin: auto;
     position: relative;
 }	
+#circle {
+    width: 120px;
+    height: 120px;
+    background: white;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	top: 40px;
+}
+.foto{
+	left: 150px;
+	position: relative;
+	bottom: 440px;
+	height: 300px;
+}
+.bordercircle{
+	position:relative;
+	border: 1px dotted gray;
+	width: 100px;
+    height: 100px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	top: 9px;
+	left: 9px;
+	justify-content: center;
+	display: flex;
+}
+.none{
+	list-style-type:none;
+	display: flex;
+	justify-content: center;
+}
+.rep{
+	text-align: center;
+	font-family: segoe script;
+	position: absolute;
+	top: 21px;
+	font-weight: 520;
+	font-size: 16px;
+
+}
+.rep:hover{
+	background-color: black;
+	color: white;
+}
+.bordercircle:hover{
+	background-color: black;
+	color: white;
+	transition: all 1s ease;
+}
+#circle:hover{
+	background-color: yellow;
+	transition: all 1.5s ease;
+}
+.widthline{
+	position:absolute;
+	width: 30px;
+	height: 0px;
+	top: 60px;
+	color: dark blue;
+}
+.but{
+	position: relative;
+	bottom:220px;
+	color: gray;
+	font-size: 20px;
+	font-weight: 200;
+	float: left;
+	right: 0px;
+	height: 10px;
+}
+.dws-menu2 > ul li{
+ position: relative;	
+}
+.dws-menu2{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu2 ul{
+	list-style: none;
+}
+.dws-menu2 > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu2 > ul li a{
+	display: block;
+	padding-top: 40px;
+	padding-right:0px;
+	padding-left: 55px;
+	padding-bottom: 0px;
+}	
+.B2:hover{
+	background: #454547;
+	color: #ffffff; 
+}
