@@ -81,13 +81,13 @@
 }
 .image-center2{
 	display: block;
-	margin: auto;
+	margin-top: auto;
 	border-top: 3px solid black;
 	border-bottom: 2px solid black;
 	width: 1000px;
 }
 .otstup{
-	margin-top: 100px;
+	margin-top:-40px;
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
@@ -136,7 +136,7 @@ h1{
 	width: 350px;
 	height: 100px;
 	color: white;
-
+	height: 400px;
 }
 .div4{
  border-left: 1px dotted silver;
@@ -153,7 +153,6 @@ h1{
 	font-family:  gabriola;
 	opacity: 0.7;
 	font-weight: 100;
-	margin-bottom: 1em;
 }
 .slka{
 	color: white;
@@ -161,6 +160,8 @@ h1{
 	opacity: 0.9;
 	text-decoration: underline;
 	font-weight: normal;
+	bottom:75px;
+	text-align: center;
 }
 .hr2{
 	border: 1px dotted silver;
@@ -227,26 +228,23 @@ article:after{
 #background-color{
 	background-color: #FFE4B5;
 	max-width: 1000px;
-	max-height: 1750px;
+	max-height: 2000px;
 	margin: auto;
     position: relative;
 }	
-#circle {
-    width: 120px;
-    height: 120px;
-    background: white;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
+.foto2 {
 	position: relative;
-	margin-left: 50px;
-	margin-right: 50px;
+    width: 220px;
+	height: 220px;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
 	top: 40px;
 }
 .foto{
-	left: 150px;
-	position: relative;
-	bottom: 440px;
+	left: 580px;
+	position: absolute;
+	bottom: 135px;
 	height: 300px;
 	cursor: pointer;
 	width: 300px;
@@ -256,20 +254,35 @@ article:after{
 	width: 400px;
 	height: 400px;
 }
-.bordercircle{
-	position:relative;
-	border: 1px dotted gray;
-	width: 100px;
-    height: 100px;
+.circle{
+	position: relative;
+    width: 115px;
+    height: 115px;
+    background: white;
     -moz-border-radius: 60px;
     -webkit-border-radius: 60px;
     border-radius: 60px;
-	top: 9px;
-	left: 9px;
+    top: -125px;
+	left: 74px;
+	justify-content: center;
+	display: flex;
+	opacity: 0.8;
+}
+.bordercircle{
+	position:relative;
+	border: 1px dotted gray;
+	width: 105px;
+    height: 105px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	top: 4px;
+	left: 0px;
 	justify-content: center;
 	display: flex;
 }
 .none{
+	position: relative;
 	list-style-type:none;
 	display: flex;
 	justify-content: center;
@@ -281,7 +294,6 @@ article:after{
 	top: 21px;
 	font-weight: 520;
 	font-size: 16px;
-
 }
 .rep:hover{
 	background-color: black;
@@ -290,9 +302,9 @@ article:after{
 .bordercircle:hover{
 	background-color: black;
 	color: white;
-	transition: all 1s ease;
+	transition: all 0.5s ease;
 }
-#circle:hover{
+.circle:hover{
 	background-color: yellow;
 	transition: all 1.5s ease;
 }
