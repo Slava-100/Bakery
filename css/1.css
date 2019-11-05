@@ -340,8 +340,8 @@ article:after{
 	text-align: center;
 	font-family: segoe script;
 	position: absolute;
-	top: 21px;
-	font-weight: 520;
+	top: 23px;
+	font-weight: 900;
 	font-size: 16px;
 }
 .rep:hover{
@@ -362,6 +362,9 @@ article:after{
 	width: 30px;
 	height: 0px;
 	top: 60px;
+	height: 2px;
+	border: none;
+	background: black;
 	color: dark blue;
 }
 .but{
