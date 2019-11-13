@@ -1,3 +1,38 @@
+.phone{
+	animation: phone .9s ease-in-out infinite;
+}
+@keyframes phone {
+	0%, 100% {
+		transform: rotate(-20deg);
+	}
+	50% {
+		transform: rotate(21deg);
+	}
+}
+.icon{
+	font-size: 12px;
+	position: relative;
+	float:left;
+	left: 8px;
+	top: 1px;
+}
+.delivery{
+position:absolute;
+right: 15px;
+top: 15px;
+font-size: 12px;
+}
+.stocks{
+	position: absolute;
+	font-size: 12px;
+	right: 28px;
+}
+.phone{
+	font-size: 12px;
+	position: absolute;
+	left: 18px;
+	top: 14px;
+}
 .div1 .figure {
     position: relative;
 }
@@ -211,11 +246,12 @@ h1{
 .dws-menu > ul{
 	display: flex;
 	justify-content: center;
+	
 }
 .dws-menu > ul li a{
 	display: block;
 	padding-top: 10px;
-	padding-right:40px;
+	padding-right:30px;
 	padding-left: 30px;
 	padding-bottom: 10px;
 }
@@ -341,12 +377,13 @@ article:after{
 	font-family: segoe script;
 	position: absolute;
 	top: 23px;
-	font-weight: 900;
+	font-weight: 520;
 	font-size: 16px;
 }
 .rep:hover{
 	background-color: black;
 	color: white;
+	font-weight:900;
 }
 .bordercircle:hover{
 	background-color: black;
